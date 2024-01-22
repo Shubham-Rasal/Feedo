@@ -100,8 +100,10 @@ export default function Home() {
                 "Set up automated alerts and notifications for timely responses to critical feedback",
               image: <Logo5 />,
             },
-          ].map((feature) => (
-            <div className="feature w-fit bg-slate-0 p-6 flex flex-col items-center">
+          ].map((feature, index) => (
+            <div 
+            key={index}
+            className="feature w-fit bg-slate-0 p-6 flex flex-col items-center">
               <div className="image">{feature.image}</div>
               <div className="description text-center text-slate-500 text-md">
                 {feature.description}

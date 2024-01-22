@@ -37,7 +37,7 @@ export default function Home() {
             type="button"
           >
             <span className="px-3 font-bold">Try Now -</span>
-            <span className=" font-md">it's free</span>
+            <span className=" font-md">it&apos;s free</span>
           </button>
         </div>
 
@@ -243,7 +243,7 @@ export default function Home() {
                 type="button"
               >
                 <span className="px-3 font-bold">Try Now -</span>
-                <span className=" font-md">it's free</span>
+                <span className=" font-md">it&apos;s free</span>
               </button>
             </div>
           </div>
@@ -261,7 +261,7 @@ export default function Home() {
             </div>
             <div className="my-8">
               <div className="font-bold text-xl py-2">
-                What's included in the Pro plan?
+                What&apos;s the difference between the Pro and the Free plan?
               </div>
               <div className="">
                 The Pro plan gives you access to the templates library and
